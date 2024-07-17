@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
-import "./index.css";
+import "./index.scss";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -11,6 +11,3 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 		</BrowserRouter>
 	</React.StrictMode>
 );
-
-// const app = document.getElementById("root");
-// ReactDOM.createRoot(app!).render(<h1>Hello</h1>);
